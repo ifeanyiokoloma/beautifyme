@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <main>
-      <nav style={{width: "100%"}} className="d-flex">
+      <nav style={{width: "50%"}} className="d-flex justify-content-between p-3 rounded">
         <Link to="/">
           <AiFillHome />
         </Link>
